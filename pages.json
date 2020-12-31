@@ -1,0 +1,42 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "你是猪吗"
+			}
+		}
+	    ,{
+            "path" : "pages/test/test",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "测试",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/test2/test2",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "test2",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#ccc",
+		"selectedColor": "#EA986C",
+		"list": [
+			{ "pagePath": "pages/index/index", "text":"测试1", "iconPath":"static/img/tabbar/car.png", "selectedIconPath":"static/img/tabbar/active-car.png"},
+			{ "pagePath": "pages/test/test", "text":"测试2", "iconPath":"static/img/tabbar/profile.png", "selectedIconPath":"static/img/tabbar/active-profile.png"}
+		]
+	}
+}
